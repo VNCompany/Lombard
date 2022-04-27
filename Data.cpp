@@ -50,7 +50,7 @@ std::vector<Item>& GetItems()
 	return __Items__;
 }
 
-bool SafeItems()
+bool SaveItems()
 {
 	std::wofstream out("Items.db", std::ios::ate);
 	out.imbue(std::locale(std::locale(), new std::codecvt_utf8<wchar_t>()));

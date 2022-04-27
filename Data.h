@@ -16,4 +16,4 @@ public:
 extern std::vector<Item> __Items__;
 
 std::vector<Item>& GetItems();
-bool SafeItems();
+bool SaveItems();
